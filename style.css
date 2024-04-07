@@ -31,7 +31,7 @@ h1 {
 }
 
 .imagem-stranger {
-    width: 75rem;
+    width: 70rem;
     float: right;
 }
 
@@ -255,7 +255,7 @@ h1 {
 }
 
 .imagem-lacasa{
-    margin-right: 4rem;
+    margin-right: 100vh;
 }
 
 .rodape-lista{
@@ -293,3 +293,158 @@ h1 {
     transition: 1s all; 
 }
 
+@media screen and (max-width:1300px) {
+        .container-cabecalho {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-tb {
+        width: 30vh;
+        padding: 10% 8% 2% 25%;
+        text-align: center;
+    }
+        .texto-promo {
+        max-width: 90%;
+        width: 100%;
+        color: var(--branco-primario);
+        margin: 1rem;
+        font-size: 1em;
+        padding: 0;
+        text-align: center;
+        overflow: hidden
+    }
+
+        .imagem-stranger {
+            width: 52vh;
+        }
+
+        .imagem-promo{
+            width: 50vh;
+            padding: 0 0 0 2%;  
+        }
+
+        .botao-assinar-plus{
+            width: 45vh;
+            margin: 0 0 2% 2%;
+        }
+
+        .botao-assinar-somente{
+            width: 45vh;
+            margin: 0 0 2% 2%;
+        }
+
+        .aviso-botoes{
+            width: 50vh;
+            margin: 0 0 2% 2%;
+        }
+
+        .texto-ligas{
+            max-width: 90%;
+            width: 100%;
+            color: var(--branco-primario);
+            margin: 1rem;
+            font-size: 1em;
+            padding: 0;
+            text-align: center;
+            overflow: hidden
+        }
+
+        .texto-plataformas{
+            max-width: 90%;
+            width: 100%;
+            color: var(--branco-primario);
+            margin: 1rem;
+            font-size: 1em;
+            padding: 0;
+            text-align: center;
+            overflow: hidden
+        }
+
+        .texto-americanas{
+            max-width: 90%;
+            width: 100%;
+            color: var(--branco-primario);
+            margin: 1rem;
+            font-size: 1em;
+            padding: 0;
+            text-align: center;
+            overflow: hidden
+        }
+
+        .imagem-jordan{
+            width: 52vh;
+        }
+
+        .paragrafo-americanas{
+            max-width: 90%;
+            width: 100%;
+            color: var(--branco-primario);
+            margin: 1rem;
+            font-size: 1em;
+            padding: 0;
+            text-align: center;
+            overflow: hidden
+        }
+
+        .video{
+            width: 50vh;
+        }
+
+        .texto-dispositivos{
+            max-width: 90%;
+            width: 100%;
+            color: var(--branco-primario);
+            margin: 1rem;
+            font-size: 1em;
+            padding: 0;
+            text-align: center;
+            overflow: hidden
+        }
+
+        .imagem-dispositivos{
+            width: 50vh;
+            padding: 0 20em 0 0;
+            margin: 0 0rem 0 0;
+        }
+
+
+        .container-contato{
+            display: flex;
+            flex-direction: column;
+            max-width: 100vh;
+        }
+        .texto-contato{
+            max-width: 90%;
+            width: 100%;
+            color: var(--branco-primario);
+            margin: 1rem;
+            font-size: 1em;
+            padding: 0;
+        }
+
+        .botao-whats-img{
+            width: 50vh;
+        }
+
+        .imagem-lacasa{
+            margin: 0 0 0 1vh;
+            width: 50vh;
+        }
+
+        .rodape-logo{
+            width: 20vh
+        }
+
+        .rodape-lista{
+            font-size: 1.2vh;
+        }
+
+        .texto-rodape{
+            font-size: 1.2vh; 
+        }
+
+
+        }
+
+}
